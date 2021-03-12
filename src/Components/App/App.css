@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  font-family: "Montserrat";
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(34, 34, 34);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 500vh;
+  background-color: transparent;
+  transition: 1s ease-in-out;
+}

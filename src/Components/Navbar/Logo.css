@@ -1,0 +1,12 @@
+.logo {
+  height: 55px;
+  width: auto;
+}
+
+.logo_container {
+  width: auto;
+  height: 55px;
+  overflow: hidden;
+}
+
+

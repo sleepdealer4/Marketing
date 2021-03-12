@@ -1,0 +1,38 @@
+.navbar {
+  height: 160px;
+  width: 100vw;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 0;
+  position: relative;
+  bottom: 57px;
+  overflow: hidden;
+}
+
+.navitems_container {
+  display: inline-flex;
+}
+
+.navitems_container li {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  justify-content: space-evenly;
+
+  position: absolute;
+  left: 30vw;
+  top: 0;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    height: 7vh;
+  }
+  .navitems_container li {
+    left: 18vw;
+  }
+}

@@ -1,0 +1,21 @@
+.imageHover_container img {
+  width: 30vw;
+  height: auto;
+  z-index: 2;
+  transition: 0.4s all ease-in-out;
+}
+
+.imageHover_container {
+  width: 30vw;
+  height: 80vh;
+  overflow: hidden;
+  margin-left: 10vw;
+}
+
+.imageHover_containe img:hover {
+  transform: scale(1.1);
+}
+
+.section_wrapper {
+  display: inline-flex;
+}
